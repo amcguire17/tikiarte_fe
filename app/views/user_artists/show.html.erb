@@ -47,7 +47,7 @@
         <div class="desc"><%= image.description %></div>
         <%= form_with url: "/user/#{current_user.id}/artists/#{@artist.id}/art_pieces/#{image.id}", method: :put, local: true do |f| %>
           <%= f.hidden_field :status, value: 'private' %>
-          <%= f.submit 'Make Public' %>
+          <%= f.submit 'Make Private' %>
         <% end %>
         <%= link_to 'Delete', "/user/#{current_user.id}/artists/#{@artist.id}/art_pieces/#{image.id}", method: :delete %>
         <% end %>
