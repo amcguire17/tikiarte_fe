@@ -1,14 +1,13 @@
-<div id='header'>
-  <h1>Add a New Artist</h1>
-</div>
+<h1>Add a New Artist</h1>
 
-<div id='form'>
+
+<div id='form' style="font-family: Papyrus; text-align: center">
   <%= form_with url: user_artists_path(current_user.id), method: :post, local: true do |form| %>
-  <%= form.label :username, 'Username:' %>
-  <%= form.text_field :username, id: 'username' %>
-  <%= form.label :password, 'Password:' %>
-  <%= form.password_field :password, id: 'password' %>
-  <%= form.password_field :password_confirmation, id: 'password_confirmation' %>
-  <%= form.submit 'Add Artist' %>
+  <%= form.label :username, 'Username:' %> <br>
+  <%= form.text_field :username, id: 'username' %> <br><br>
+  <%= form.label :password, 'Password:' %> <br>
+  <%= form.password_field :password, id: 'password', placeholder: 'Password' %> <br>
+  <%= form.password_field :password_confirmation, id: 'password_confirmation', placeholder: 'Password Confirmation' %> <br><br>
+  <%= form.submit 'Add Artist', class: 'btn btn-info' %>
 <% end %>
 </div>
