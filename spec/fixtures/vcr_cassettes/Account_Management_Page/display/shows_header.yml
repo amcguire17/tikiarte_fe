@@ -21,25 +21,25 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 23 Sep 2021 20:56:35 GMT
+      - Fri, 17 Dec 2021 23:35:39 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"1010f9a5e51cdf1c1f335cbad9743cdb"
+      - W/"a8559fedc207d126c06c43f68d008bd5"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 123f9e53-a71a-4f9b-91ba-ed6558eff742
+      - 4eb75978-a9a8-44a0-84b4-fd2fc4631e22
       X-Runtime:
-      - '0.005570'
+      - '0.008069'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"director_artist","attributes":{"email":"dbrophy720@gmail.com","token":"ya29.a0ARrdaM-MU1xt0-bl8rIbvILDV-hjaU6G7Qu1aTGOvYVJ0flxuV3K4na62g-r-gHS8AtytbUm4lI3xsCNwuApcEjkEv_nfR786EiuVAzTg9Je165Z1b7QYzYmP8aTN35MCvSWGcgdHUxRh0H9-cyXBDcjgqLx","google_id":"100103662693449910767","artists":[{"id":1,"username":"tiki","password_digest":"$2a$12$kHhvRHTsr1tdungcP/vlUOTF8PeSwjj6Cjisi0pWLbldB9P2PhlFq","director_id":1,"created_at":"2021-09-22T21:58:06.985Z","updated_at":"2021-09-22T21:58:06.985Z"},{"id":5,"username":"artist_1","password_digest":"$2a$12$G6lZd1WbNImp0vPZtN0NSujy6DbXBi2wa6CKihDpNca3ctVpAm/8m","director_id":1,"created_at":"2021-09-23T20:49:41.342Z","updated_at":"2021-09-23T20:49:41.342Z"}]}}}'
-  recorded_at: Thu, 23 Sep 2021 20:56:35 GMT
+      string: '{"data":{"id":"1","type":"director_artist","attributes":{"email":"dbrophy720@gmail.com","token":"ya29.a0ARrdaM-MU1xt0-bl8rIbvILDV-hjaU6G7Qu1aTGOvYVJ0flxuV3K4na62g-r-gHS8AtytbUm4lI3xsCNwuApcEjkEv_nfR786EiuVAzTg9Je165Z1b7QYzYmP8aTN35MCvSWGcgdHUxRh0H9-cyXBDcjgqLx","google_id":"100103662693449910767","artists":[{"id":1,"username":"tiki","password_digest":"$2a$12$kHhvRHTsr1tdungcP/vlUOTF8PeSwjj6Cjisi0pWLbldB9P2PhlFq","director_id":1,"created_at":"2021-09-22T21:58:06.985Z","updated_at":"2021-09-22T21:58:06.985Z"},{"id":18,"username":"artist_1","password_digest":"$2a$12$BS9xqURlXj7lR/tOSm8Ja.a4xpfO.u30FqWDPKW/FHIAOTiMmQUhC","director_id":1,"created_at":"2021-12-17T23:34:49.189Z","updated_at":"2021-12-17T23:34:49.189Z"}]}}}'
+  recorded_at: Fri, 17 Dec 2021 23:35:39 GMT
 recorded_with: VCR 6.0.0

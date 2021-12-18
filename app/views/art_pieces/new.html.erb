@@ -1,15 +1,13 @@
-<div id="header"
-  <h1>Upload an Art Piece</h1>
-</div>
+<h1>Upload an Art Piece</h1>
 
-<div id="upload_form">
+<div id="upload_form" style="font-family: Papyrus; text-align: center">
   <%= form_with url: user_artist_art_pieces_path, local: true do |f| %>
     <%= f.label :art_piece_title,  "Name Your New Art Piece:" %>
-    <%= f.text_field :art_piece_title, id: :art_piece_title %> <br>
+    <%= f.text_field :art_piece_title, id: :art_piece_title %> <br><br>
     <%= f.label :art_piece_description,  "Describe Your Art Piece:" %>
-    <%= f.text_field :art_piece_description, id: :art_piece_description %> <br>
+    <%= f.text_field :art_piece_description, id: :art_piece_description %> <br><br>
     <%= f.label :image_upload %>
-    <%= f.file_field :image_upload, id: :image_upload, accept: "image/jpeg" %> <br>
-    <%= f.submit "Create Art Piece" %>
-<% end %>
+    <%= f.file_field :image_upload, id: :image_upload, accept: "image/jpeg" %> <br><br>
+    <%= f.submit "Create Art Piece", class: 'btn btn-info' %>
+  <% end %>
 </div>

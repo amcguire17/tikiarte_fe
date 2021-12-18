@@ -15,10 +15,11 @@ RSpec.describe "the user artists dashboard", :vcr do
         expect(page).to have_content('My Artists')
       end
 
+      expect(page).to have_button('Add Artist')
+
       within('#artists') do
         expect(page).to have_content('tiki')
         expect(page).to have_button("tiki's Portfolio Page")
-        expect(page).to have_button('Add Artist')
 
         click_button("tiki's Portfolio Page")
 

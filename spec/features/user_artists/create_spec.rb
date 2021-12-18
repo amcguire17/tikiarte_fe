@@ -16,9 +16,8 @@ RSpec.describe "create user artist", :vcr do
 
       expect(current_path).to eq(new_user_artist_path(@user.id))
 
-      within('#header') do
-        expect(page).to have_content('Add a New Artist')
-      end
+      expect(page).to have_content('Add a New Artist')
+
 
       within('#form') do
         fill_in 'username', with: 'artist_1'

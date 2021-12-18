@@ -6,10 +6,11 @@
   <div id="images">
     <div class="row">
       <% @public_images.each do |image| %>
-      <div class="col-lg-4 mb-4 mb-lg-0">
+      <div class="col-lg-4 mb-2 mb-md-0">
         <img
           src="<%= image.url %>"
-          class="w-100 shadow-1-strong rounded mb-4"
+          class="w-75 h-75 shadow-1-strong rounded mx-4"
+          style="text-align: center"
           alt="<%= image.title %>"
         />
       </div>

@@ -21,25 +21,25 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 22 Sep 2021 22:00:47 GMT
+      - Fri, 17 Dec 2021 23:28:39 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"4ffe94b506ae9712a22fa4ccdaa6f3a4"
+      - W/"b5fec98691d6c8b74c65fa954c989c90"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c06834ca-d9bc-43be-8393-412273c56be0
+      - fcd8e758-5846-4e62-be3a-f8219791adaa
       X-Runtime:
-      - '0.126340'
+      - '0.121672'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"url":"https://i.picsum.photos/id/953/500/600.jpg?hmac=usnLsjAjLDy4r2YvpPQUPYIWCAs7eEuXQ1t9fsSd96Y"}}'
-  recorded_at: Wed, 22 Sep 2021 22:00:48 GMT
+      string: '{"data":{"url":"https://i.picsum.photos/id/296/500/600.jpg?hmac=ab5OJtZPjn3MM1DXcA7MfhqYSCNNn72f9FqGw7aicps"}}'
+  recorded_at: Fri, 17 Dec 2021 23:28:39 GMT
 recorded_with: VCR 6.0.0
