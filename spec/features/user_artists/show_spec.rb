@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe "artist show page", :vcr do
   before(:each) do
-    @user = GoogleUser.new( { id: 5, attributes: { email: 'test@test.com' } } )
-    @artist = Artist.new('bob', 7)
+    @user = GoogleUser.new( { id: 3, attributes: { email: 'test@test.com' } } )
+    @artist = Artist.new('reggie', 3)
 
     allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
   end
@@ -12,17 +12,16 @@ RSpec.describe "artist show page", :vcr do
     it 'shows header' do
       visit user_artist_path(@user.id, @artist.id)
 
-      within('#header') do
-        expect(page).to have_content(@artist.username)
-      end
+      expect(page).to have_content(@artist.username)
 
-      within('#count') do
-        expect(page).to have_content("Total Art Pieces: 2")
-      end
+      expect(page).to have_content("Total Art Pieces: 2")
 
       within('#private-gallery') do
-        expect(page).to have_css("img[src*='https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/06cc9da2-18e8-4439-84f1-87e8a18a8d1e?response-content-disposition=inline%3B%20filename%3D%2270700038_741384019621630_5958399291367674370_n_1574090453__rend_9_16.jpeg%22%3B%20filename%2A%3DUTF-8%27%2770700038_741384019621630_5958399291367674370_n_1574090453__rend_9_16.jpeg']")
-        expect(page).to have_css("img[src*='https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/97a6c369-1fdb-462d-8c35-438b2f81b59e?response-content-disposition=inline%3B%20filename%3D%22e03d5b812b2734826f76960eca5b5541.jpg%22%3B%20filename%2A%3DUTF-8%27%27e03d5b812b2734826f76960eca5b5541.jpg']")
+        expect(page).to have_css("img[src*='https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/85b04b7f-b55e-40e8-99ec-d1a34f529ac9?response-content-disposition=attachment%3B%20filename%3D%226f663d83-69cf-47b5-a72c-d6d40ed0eeb8-ford-bronco-Gateway-06.JPG%22%3B%20filename%2A%3DUTF-8%27%276f663d83-69cf-47b5-a72c-d6d40ed0eeb8-ford-bronco-Gateway-06.JPG']")
+      end
+
+      within('#public-gallery') do
+        expect(page).to have_css("img[src*='https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/55c4807e-fdbf-4648-9e42-f6952dff7556?response-content-disposition=inline%3B%20filename%3D%22Reggie.JPG%22%3B%20filename%2A%3DUTF-8%27%27Reggie.JPG']")
       end
     end
   end

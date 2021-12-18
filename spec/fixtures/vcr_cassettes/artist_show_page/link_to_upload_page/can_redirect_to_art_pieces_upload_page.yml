@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://tikiarte-be.herokuapp.com/api/v1/directors/5/artists/7
+    uri: https://tikiarte-be.herokuapp.com/api/v1/directors/3/artists/3
     body:
       encoding: US-ASCII
       string: ''
@@ -21,30 +21,30 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 23 Sep 2021 23:59:59 GMT
+      - Fri, 17 Dec 2021 23:57:20 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"ad7491f758252093ccbba69475d153b0"
+      - W/"dc8370a8d3abe0d69eece1dd018b3443"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 7b5f7369-a923-4a8b-802b-db409ee6bb8b
+      - 2ad9fdf9-524c-4d14-8b5d-bff59ad25fef
       X-Runtime:
-      - '0.005547'
+      - '0.004092'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"7","type":"artist","attributes":{"username":"bob","password_digest":"$2a$12$Cw26Zg9xOLCkADij9XN2K.ZjcgqyHU8XvC7wwurGMDgRQvprQzqSq","director_id":3}}}'
-  recorded_at: Thu, 23 Sep 2021 23:59:59 GMT
+      string: '{"data":{"id":"3","type":"artist","attributes":{"username":"reggie","password_digest":"$2a$12$0jycioRJKihsYO37QGGtNuJdQuNgDoknIbRiOdTRdGuVK5Bl/onpm","director_id":3}}}'
+  recorded_at: Fri, 17 Dec 2021 23:57:21 GMT
 - request:
     method: get
-    uri: https://tikiarte-be.herokuapp.com/api/v1/artists/7/images
+    uri: https://tikiarte-be.herokuapp.com/api/v1/artists/3/images
     body:
       encoding: US-ASCII
       string: ''
@@ -63,32 +63,32 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 23 Sep 2021 23:59:59 GMT
+      - Fri, 17 Dec 2021 23:57:21 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"0273a4802a3e87f186bfc015bb5a15ca"
+      - W/"52b3b79f8fef39234981e32b1dc770f7"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 31632334-7918-47a9-af4b-28bbedc308b2
+      - 94398723-5eb0-4fd8-96af-491934f2a512
       X-Runtime:
-      - '0.013579'
+      - '0.012299'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"7","type":"image","attributes":{"status":"private","description":"hanging
-        out","tags":null,"title":"Quokka","artist_id":7,"upload_url":"https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/06cc9da2-18e8-4439-84f1-87e8a18a8d1e?response-content-disposition=inline%3B%20filename%3D%2270700038_741384019621630_5958399291367674370_n_1574090453__rend_9_16.jpeg%22%3B%20filename%2A%3DUTF-8%27%2770700038_741384019621630_5958399291367674370_n_1574090453__rend_9_16.jpeg\u0026response-content-type=image%2Fjpeg\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIASDP6IVIQYPZYEJLU%2F20210924%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20210924T000000Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=7a3fe334b232dba85fccdf719e4357b61dafb9a95da411eaa2e139743f24c60c"}},{"id":"5","type":"image","attributes":{"status":"private","description":"panda
-        in tree","tags":null,"title":"Panda","artist_id":7,"upload_url":"https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/97a6c369-1fdb-462d-8c35-438b2f81b59e?response-content-disposition=inline%3B%20filename%3D%22e03d5b812b2734826f76960eca5b5541.jpg%22%3B%20filename%2A%3DUTF-8%27%27e03d5b812b2734826f76960eca5b5541.jpg\u0026response-content-type=image%2Fjpeg\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIASDP6IVIQYPZYEJLU%2F20210924%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20210924T000000Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=81cd776ed334e7db28ff97c93e29a6f954c0ecf7acc76b73307e2423c28bc6b4"}}]}'
-  recorded_at: Fri, 24 Sep 2021 00:00:00 GMT
+      string: '{"data":[{"id":"21","type":"image","attributes":{"status":"private","description":"Bronco
+        truck","tags":null,"title":"Bronco","artist_id":3,"upload_url":"https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/85b04b7f-b55e-40e8-99ec-d1a34f529ac9?response-content-disposition=attachment%3B%20filename%3D%226f663d83-69cf-47b5-a72c-d6d40ed0eeb8-ford-bronco-Gateway-06.JPG%22%3B%20filename%2A%3DUTF-8%27%276f663d83-69cf-47b5-a72c-d6d40ed0eeb8-ford-bronco-Gateway-06.JPG\u0026response-content-type=image%2Fwebp\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIASDP6IVIQYPZYEJLU%2F20211217%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20211217T235721Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=8f4eea9368fe67826c68813862fc7a53784fbe26f7ec3085d398e571e20f3ad2"}},{"id":"4","type":"image","attributes":{"status":"public","description":"Reggie
+        following covid guidelines","tags":null,"title":"Reggie","artist_id":3,"upload_url":"https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/55c4807e-fdbf-4648-9e42-f6952dff7556?response-content-disposition=inline%3B%20filename%3D%22Reggie.JPG%22%3B%20filename%2A%3DUTF-8%27%27Reggie.JPG\u0026response-content-type=image%2Fjpeg\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIASDP6IVIQYPZYEJLU%2F20211217%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20211217T235721Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=1bd6c858298a2785a5e1f9195c1280e86ffd97c8b5b733bffca974b71aa72630"}}]}'
+  recorded_at: Fri, 17 Dec 2021 23:57:21 GMT
 - request:
     method: get
-    uri: https://tikiarte-be.herokuapp.com/api/v1/directors/5/artists/7
+    uri: https://tikiarte-be.herokuapp.com/api/v1/directors/3/artists/3
     body:
       encoding: US-ASCII
       string: ''
@@ -107,25 +107,25 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Fri, 24 Sep 2021 00:00:00 GMT
+      - Fri, 17 Dec 2021 23:57:21 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"ad7491f758252093ccbba69475d153b0"
+      - W/"dc8370a8d3abe0d69eece1dd018b3443"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 72e167d9-8afa-48a5-9057-edec4494be1a
+      - 0feb0f53-54e8-4bde-acc2-79263a7ca4ad
       X-Runtime:
-      - '0.004605'
+      - '0.003554'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"7","type":"artist","attributes":{"username":"bob","password_digest":"$2a$12$Cw26Zg9xOLCkADij9XN2K.ZjcgqyHU8XvC7wwurGMDgRQvprQzqSq","director_id":3}}}'
-  recorded_at: Fri, 24 Sep 2021 00:00:00 GMT
+      string: '{"data":{"id":"3","type":"artist","attributes":{"username":"reggie","password_digest":"$2a$12$0jycioRJKihsYO37QGGtNuJdQuNgDoknIbRiOdTRdGuVK5Bl/onpm","director_id":3}}}'
+  recorded_at: Fri, 17 Dec 2021 23:57:22 GMT
 recorded_with: VCR 6.0.0

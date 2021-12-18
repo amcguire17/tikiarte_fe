@@ -38,10 +38,9 @@ RSpec.describe 'Welcome page' do
       })
       Rails.application.env_config["omniauth.auth"] = OmniAuth.config.mock_auth[:google_oauth2]
 
-      within('#button') do
-        expect(page).to have_button("Sign in with Google")
-        click_button "Sign in with Google"
-      end
+      expect(page).to have_button("Sign in with Google")
+      click_button "Sign in with Google"
+
       expect(current_path).to eq('/user/2/artists')
     end
 

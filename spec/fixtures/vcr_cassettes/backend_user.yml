@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 23 Sep 2021 20:49:38 GMT
+      - Fri, 17 Dec 2021 23:28:04 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -33,9 +33,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - ac333b3c-49c6-4021-9921-2168650fc1e8
+      - 7e840349-b73d-465e-991a-ef1222871ec8
       X-Runtime:
-      - '0.113827'
+      - '0.007863'
       Transfer-Encoding:
       - chunked
       Via:
@@ -43,5 +43,5 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"data":{"id":"6","type":"director","attributes":{"email":"none@noemail.com","token":"100","google_id":"1"}}}'
-  recorded_at: Thu, 23 Sep 2021 20:49:38 GMT
+  recorded_at: Fri, 17 Dec 2021 23:28:05 GMT
 recorded_with: VCR 6.0.0

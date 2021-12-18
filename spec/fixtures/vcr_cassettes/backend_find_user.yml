@@ -21,25 +21,25 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 23 Sep 2021 20:49:45 GMT
+      - Fri, 17 Dec 2021 23:28:18 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"908734332e321032c36c9acac0eb3622"
+      - W/"001a87f5eb929655fb934526c48cbc2f"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 8b30cbf6-5bf2-4bb3-a99e-221d4ec41296
+      - 99281f45-d753-4aad-a800-dd56f08951a1
       X-Runtime:
-      - '0.003833'
+      - '0.003069'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"3","type":"director","attributes":{"email":"aruwart001@gmail.com","token":"ya29.a0ARrdaM8OX3ZcE7GKWBjF_lEoVQ_HJK4mk_-PTKAxqr6OtzzfMcR7TzKOaB9pxj0deaJLUqwXCRaXVCclKhWv1bQKlsmuGcf3trHY3-DYZ1nHY2nb_g6jao2GcsjgX2i8MQX97LkTH3YKCmJZeVyE4LTnh3LP","google_id":"107027102458784015410"}}}'
-  recorded_at: Thu, 23 Sep 2021 20:49:45 GMT
+      string: '{"data":{"id":"3","type":"director","attributes":{"email":"aruwart001@gmail.com","token":"ya29.a0ARrdaM-NNPw8JEYWDKvU1PO0fHchiA0622E-9xke72PNHTImWpFF5TXBs6WeW0LwbKdb1G8MnyK5xoq3XXRN3n-hnopOTLStAadkgDTBHxuiEdgVciu7WcTxgISmQCv_D8P63akTV5xkb4Hm6fZ3LWo5_LfTTA","google_id":"107027102458784015410"}}}'
+  recorded_at: Fri, 17 Dec 2021 23:28:19 GMT
 recorded_with: VCR 6.0.0

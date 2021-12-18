@@ -21,27 +21,29 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 23 Sep 2021 23:25:13 GMT
+      - Fri, 17 Dec 2021 23:28:40 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"426d8582ebcf91b11545a57f20324b43"
+      - W/"fed26c95b2a86046333aac87bd8ab276"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e96f08bb-f36d-42e4-9b5c-9a01603f0f20
+      - '076082ff-90ab-480d-a71f-819926ba2164'
       X-Runtime:
-      - '0.014254'
+      - '0.020518'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"9","type":"public_gallery","attributes":{"status":"public","tags":null,"title":"kangaroo","description":"baby
-        kangaroo","artist_id":3,"upload_url":"https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/fa383404-d62d-4e55-af14-e7c3ed61f5a5?response-content-disposition=inline%3B%20filename%3D%22sub-buzz-11577-1538631066-1.jpeg%22%3B%20filename%2A%3DUTF-8%27%27sub-buzz-11577-1538631066-1.jpeg\u0026response-content-type=image%2Fjpeg\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIASDP6IVIQYPZYEJLU%2F20210923%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20210923T232513Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=35338baed34925de8309ca86f4e6ab28cf62241c034fbcd81bec6b0c2120ac9a"}},{"id":"8","type":"public_gallery","attributes":{"status":"public","tags":null,"title":"Sugar
-        Glider","description":"flying","artist_id":3,"upload_url":"https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/673e4c60-9d31-4cab-9393-2ec6f98df200?response-content-disposition=inline%3B%20filename%3D%22988fb9e5bb6aaf57f9825a677549343c.jpeg%22%3B%20filename%2A%3DUTF-8%27%27988fb9e5bb6aaf57f9825a677549343c.jpeg\u0026response-content-type=image%2Fjpeg\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIASDP6IVIQYPZYEJLU%2F20210923%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20210923T232513Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=e0bb0742ec4857525d485e8be72e3ca3620683b146d298f161c6906f0da4f36d"}}]}'
-  recorded_at: Thu, 23 Sep 2021 23:25:13 GMT
+      string: '{"data":[{"id":"24","type":"public_gallery","attributes":{"status":"public","tags":null,"title":"dog","description":"laying
+        on the couch","artist_id":15,"upload_url":"https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/84d17702-2eb0-42ef-af5b-858bf3b84c58?response-content-disposition=inline%3B%20filename%3D%22IMG_7864.jpg%22%3B%20filename%2A%3DUTF-8%27%27IMG_7864.jpg\u0026response-content-type=image%2Fjpeg\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIASDP6IVIQYPZYEJLU%2F20211217%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20211217T232840Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=4ca743cc4f15231b8408564e9c3edffec8cda35d758b2a5cf3bd016cb3adad4b"}},{"id":"23","type":"public_gallery","attributes":{"status":"public","tags":null,"title":"Panda","description":"Pand
+        in tree","artist_id":14,"upload_url":"https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/9a737cc8-dc69-461a-bda6-a2cc42958f3d?response-content-disposition=inline%3B%20filename%3D%22e03d5b812b2734826f76960eca5b5541.jpg%22%3B%20filename%2A%3DUTF-8%27%27e03d5b812b2734826f76960eca5b5541.jpg\u0026response-content-type=image%2Fjpeg\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIASDP6IVIQYPZYEJLU%2F20211217%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20211217T232840Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=6760a2702ffff583b471f73f070c42906c433189eb2bd839794ddb132cd0e67b"}},{"id":"12","type":"public_gallery","attributes":{"status":"public","tags":null,"title":"Doodle","description":"Action
+        doodle","artist_id":9,"upload_url":"https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/2432ea7b-9df1-4953-97ee-f85b9e8225e0?response-content-disposition=inline%3B%20filename%3D%22PXL_20210908_214800825.MP_2.jpg%22%3B%20filename%2A%3DUTF-8%27%27PXL_20210908_214800825.MP_2.jpg\u0026response-content-type=image%2Fjpeg\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIASDP6IVIQYPZYEJLU%2F20211217%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20211217T232840Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=d0b2810938dc699c4691ebd4cdd9da298ed2dd6636f3ad1b4f8fe658067aa29e"}},{"id":"4","type":"public_gallery","attributes":{"status":"public","tags":null,"title":"Reggie","description":"Reggie
+        following covid guidelines","artist_id":3,"upload_url":"https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/55c4807e-fdbf-4648-9e42-f6952dff7556?response-content-disposition=inline%3B%20filename%3D%22Reggie.JPG%22%3B%20filename%2A%3DUTF-8%27%27Reggie.JPG\u0026response-content-type=image%2Fjpeg\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIASDP6IVIQYPZYEJLU%2F20211217%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20211217T232840Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=d0317bc18126fcd908de901097f03cde4796c2ecae708bc66c2d17bbb7d8f616"}}]}'
+  recorded_at: Fri, 17 Dec 2021 23:28:40 GMT
 recorded_with: VCR 6.0.0

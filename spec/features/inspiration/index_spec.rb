@@ -27,7 +27,7 @@ RSpec.describe 'Inspiration Page', :vcr do
 
       within('#picture') do
         click_link 'Randomize my Picture!'
-        expect(page).to have_css("img[src*='https://i.picsum.photos/id/953/500/600.jpg?hmac=usnLsjAjLDy4r2YvpPQUPYIWCAs7eEuXQ1t9fsSd96Y']")
+        expect(page).to have_css("img[src*='https://i.picsum.photos/id/296/500/600.jpg?hmac=ab5OJtZPjn3MM1DXcA7MfhqYSCNNn72f9FqGw7aicps']")
       end
     end
   end

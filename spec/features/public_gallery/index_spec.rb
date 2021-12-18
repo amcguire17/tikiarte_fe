@@ -16,8 +16,10 @@ RSpec.describe "public gallery", :vcr do
       end
 
       within('#images') do
-        expect(page).to have_css("img[src*='https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/fa383404-d62d-4e55-af14-e7c3ed61f5a5?response-content-disposition=inline%3B%20filename%3D%22sub-buzz-11577-1538631066-1.jpeg%22%3B%20filename%2A%3DUTF-8%27%27sub-buzz-11577-1538631066-1.jpeg']")
-        expect(page).to have_css("img[src*='https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/673e4c60-9d31-4cab-9393-2ec6f98df200?response-content-disposition=inline%3B%20filename%3D%22988fb9e5bb6aaf57f9825a677549343c.jpeg%22%3B%20filename%2A%3DUTF-8%27%27988fb9e5bb6aaf57f9825a677549343c.jpeg']")
+        expect(page).to have_css("img[src*='https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/84d17702-2eb0-42ef-af5b-858bf3b84c58?response-content-disposition=inline%3B%20filename%3D%22IMG_7864.jpg%22%3B%20filename%2A%3DUTF-8%27%27IMG_7864.jpg']")
+        expect(page).to have_css("img[src*='https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/9a737cc8-dc69-461a-bda6-a2cc42958f3d?response-content-disposition=inline%3B%20filename%3D%22e03d5b812b2734826f76960eca5b5541.jpg%22%3B%20filename%2A%3DUTF-8%27%27e03d5b812b2734826f76960eca5b5541.jpg']")
+        expect(page).to have_css("img[src*='https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/2432ea7b-9df1-4953-97ee-f85b9e8225e0?response-content-disposition=inline%3B%20filename%3D%22PXL_20210908_214800825.MP_2.jpg%22%3B%20filename%2A%3DUTF-8%27%27PXL_20210908_214800825.MP_2.jpg']")
+        expect(page).to have_css("img[src*='https://tikiarte-dev.s3.us-east-2.amazonaws.com/uploads/55c4807e-fdbf-4648-9e42-f6952dff7556?response-content-disposition=inline%3B%20filename%3D%22Reggie.JPG%22%3B%20filename%2A%3DUTF-8%27%27Reggie.JPG']")
       end
     end
   end

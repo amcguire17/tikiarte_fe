@@ -25,11 +25,10 @@ RSpec.describe 'Account Management Page', :vcr do
   describe 'functionality' do
     it "can edit an artist's information" do
       visit account_management_index_path
-
-      within('#artist-5') do
+      within('#artist-18') do
         expect(page).to have_button('Edit')
         click_button('Edit')
-        expect(current_path).to eq(edit_user_artist_path(1, 5))
+        expect(current_path).to eq(edit_user_artist_path(1, 18))
       end
 
       expect(page).to have_content('Edit artist_1')
@@ -53,7 +52,7 @@ RSpec.describe 'Account Management Page', :vcr do
     it 'returns an error if passwords do not match' do
       visit account_management_index_path
 
-      within('#artist-6') do
+      within('#artist-18') do
         expect(page).to have_button('Edit')
         click_button('Edit')
       end
@@ -72,7 +71,7 @@ RSpec.describe 'Account Management Page', :vcr do
     it 'can delete an artist' do
       visit account_management_index_path
 
-      within('#artist-5') do
+      within('#artist-18') do
         expect(page).to have_button('Delete')
         click_button('Delete')
         expect(current_path).to eq(account_management_index_path)
